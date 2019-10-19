@@ -70,10 +70,19 @@ h3 {
 
 .button {
   border: 1px ridge #2b6cad;
-  border-radius: 2px;
+  border-radius: 7px;
   background-color: #2e70b3;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #FFFFFF;	
 }
 
+.button:hover {
+  text-decoration: underline;
+}
 /* */
 
 /* ID residental area ahead */
