@@ -69,7 +69,9 @@ h3 {
 }
 
 .button {
-  border: ;
+  border: 1px ridge #2b6cad;
+  border-radius: 2px;
+  background-color: #2e70b3;
 }
 
 /* */
