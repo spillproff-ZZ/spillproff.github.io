@@ -92,7 +92,7 @@ nav a:hover {
 }
 
 .dropdown-list {
-  position: absolute;
+  position: fixed;
   float: none;
   display: none;
   background-color: grey;
