@@ -24,22 +24,20 @@ h3 {
   font-family: '', sans-serif;
   font-size: 23px; 
 }
-/* */
 
-/* Class residental area ahead */
-.navigation {
-	height: 50px;
-	background-color: #1c324d81;
-	background: -webkit-linear-gradient(-zzdeg, #1c324d81, #1f346b81);
+nav {
+  height: 50px;
+  background-color: #1c324d81;
+  background: -webkit-linear-gradient(-zzdeg, #1c324d81, #1f346b81);
   background: linear-gradient(-90deg, #1c324d81, #1f346b81);
-	position: sticky;
-	overflow: hidden;
-	top: 0;
-	width: 100%;
-	font-family: 'Roboto Condensed', sans-serif;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-.navigation a {
+nav a {
 	float: right;
 	display: block;
   padding-top: 17px;
@@ -49,10 +47,12 @@ h3 {
 	color: white;
 }
 
-.navigation a:hover {
+nav a:hover {
 	background-color: #2f825381;
 }
+/* */
 
+/* Class residental area ahead */
 .text {
   top: 0%;
   margin-top: auto;
