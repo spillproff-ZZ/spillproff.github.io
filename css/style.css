@@ -2,8 +2,6 @@
 body {
 	margin: 0;
   background-color: #1e263d;
-  background-image: url("https://lh3.googleusercontent.com/jy2lrEw9wO7qL29w1MMH_KBNab76wYXBDmGCIwXM7g5EZux7QSQEDYhzDvVz1pRM18sut3qkSstBX7-xTNfoq-3pvVS76pIAa4p5eXB1o5WBqoXCRigHCW1RYhG3rDg61WRM6gS-Cb8gf4CJ7rr3w4sjo_glbRitYc6ii8Jm-6w1gVjiZsZ95ipBRrES0gqbREbrUmRVkr0rZHBOncwG4eLXPPu7RKe-dsC5OI6ihQtOENdgBYws60f91nB_obsCL82Wspd_gCfV9pzbsT78kPfX1l23V5DZLkCu3ZADLOA7lIKNYlnouw2B3wMNeR-eRA7YPew7PXmRg1QmmTLiXa00WP42NO8qQg8VaFfKXMqT8Y541MigSh8BkChrA7-ol8MAdD2eo5kup5wXXqjsb_tn_dDTVGJaT1M_gu4PSGh5n3Ik0sUbtQXBIRKmhZj3_IpY34afFY-SjrVSnOJqO6kSCzg0ccJpAxJYdaPhuLVvtB9TZIu9CM6gx1toId6qSF6oaBRn99Lm0-p2dlU8u9RtbntxpY_6vXGzV0wRb7q2zqXD9a__yH2MS4wy8iMlm_CxJ26FS5XfHqLC0DeW7Ba5uuSBd16M3uxXnzxuplojTRcqqbDWurXgGjo33rJu7OkS-m09A4ObN-lyRQ2SeboBCB4fiNYUY3gonRVDTr9Z37gKZBFiPuk=s654-no");
-	
 }
 
 a {
@@ -29,8 +27,9 @@ h3 {
 nav {
   height: 50px;
   background-color: #1c324d81;
-  background: -webkit-linear-gradient(-zzdeg, #1c324d81, #1f346b81);
-  background: linear-gradient(-90deg, #1c324d81, #1f346b81);
+  background: -webkit-linear-gradient(-zzdeg, rgba(14,12,51,1) 0%, rgba(25,38,107,1) 35%, rgba(42,85,138,1) 100%);
+  background: linear-gradient(270deg, rgba(14,12,51,1) 0%, rgba(25,38,107,1) 35%, rgba(42,85,138,1) 100%);
+   background-image: url("https://lh3.googleusercontent.com/jy2lrEw9wO7qL29w1MMH_KBNab76wYXBDmGCIwXM7g5EZux7QSQEDYhzDvVz1pRM18sut3qkSstBX7-xTNfoq-3pvVS76pIAa4p5eXB1o5WBqoXCRigHCW1RYhG3rDg61WRM6gS-Cb8gf4CJ7rr3w4sjo_glbRitYc6ii8Jm-6w1gVjiZsZ95ipBRrES0gqbREbrUmRVkr0rZHBOncwG4eLXPPu7RKe-dsC5OI6ihQtOENdgBYws60f91nB_obsCL82Wspd_gCfV9pzbsT78kPfX1l23V5DZLkCu3ZADLOA7lIKNYlnouw2B3wMNeR-eRA7YPew7PXmRg1QmmTLiXa00WP42NO8qQg8VaFfKXMqT8Y541MigSh8BkChrA7-ol8MAdD2eo5kup5wXXqjsb_tn_dDTVGJaT1M_gu4PSGh5n3Ik0sUbtQXBIRKmhZj3_IpY34afFY-SjrVSnOJqO6kSCzg0ccJpAxJYdaPhuLVvtB9TZIu9CM6gx1toId6qSF6oaBRn99Lm0-p2dlU8u9RtbntxpY_6vXGzV0wRb7q2zqXD9a__yH2MS4wy8iMlm_CxJ26FS5XfHqLC0DeW7Ba5uuSBd16M3uxXnzxuplojTRcqqbDWurXgGjo33rJu7OkS-m09A4ObN-lyRQ2SeboBCB4fiNYUY3gonRVDTr9Z37gKZBFiPuk=s654-no");
   position: sticky;
   overflow: hidden;
   top: 0;
