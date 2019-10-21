@@ -87,9 +87,12 @@ nav a:hover {
 }
 
 .dropdown {
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-list {
+  position: absolute;
   float: none;
   display: none;
   background-color: grey;
