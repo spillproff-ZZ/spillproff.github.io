@@ -1,8 +1,7 @@
 /* Tag residental area ahead */
 body {
-	margin: 0;
+  margin: 0;
   background-color: #1e263d;
-  background-image: url("http://thepatternlibrary.com/img/ae.jpg");
 }
 
 a {
@@ -26,25 +25,26 @@ h3 {
 }
 
 nav {
-  height: 50px;
+  width: 100%;
+  height: 60px;
   background-color: #1c324d81;
   background: -webkit-linear-gradient(-zzdeg, #1c324d81, #1f346b81);
   background: linear-gradient(-90deg, #1c324d81, #1f346b81);
   position: sticky;
   overflow: hidden;
   top: 0;
-  width: 100%;
+  
   font-family: 'Roboto Condensed', sans-serif;
  
 }
 
 nav a {
 	float: right;
-	display: block;
-  padding-top: 17px;
-  padding-bottom: 15px;
-  padding-left: 12px;
-  padding-right: 12px;
+	display: flex;
+  margin-top: 17px;
+  margin-bottom: 15px;
+  margin-left: 12px;
+  margin-right: 12px;
 	color: white;
 }
 
