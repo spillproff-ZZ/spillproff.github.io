@@ -1,0 +1,85 @@
+/* Tags only*/
+body {
+	margin: 0;
+	background-color: #1e263d;
+}
+
+
+
+h1 {
+	font-family: 'Signika', sans-serif;
+	font-weight: 700;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	background-color: #303030;
+	width: 100%;
+	height: 75px;
+	top: 0;
+	position: sticky;
+	overflow: hidden;
+	z-index: 454;
+}
+
+nav a {
+	color: white;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	text-align: center;
+	float: right;
+}
+
+nav a:hover {
+	color: #2c74cb;
+}
+/* */
+/* */
+/* */
+/* */
+/* */
+#nav_title {
+	float: left;
+}
+
+#nav_about {
+
+	float: right;
+}
+
+#nav_experimental {
+
+}
+
+#nav_projects {
+
+}
+
+#nav_twitch {
+
+}
+
+#nav_youtube {
+
+}
