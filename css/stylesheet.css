@@ -4,8 +4,6 @@ body {
 	background-color: #1e263d;
 }
 
-
-
 h1 {
 	font-family: 'Signika', sans-serif;
 	font-weight: 700;
@@ -38,7 +36,7 @@ nav {
 	top: 0;
 	position: sticky;
 	overflow: hidden;
-	z-index: 454;
+	z-index: 998;
 }
 
 nav a {
@@ -64,20 +62,19 @@ nav a:hover {
 	float: left;
 }
 
-#nav_about {
-
-	float: right;
+#nav_about:hover {
+  
 }
 
-#nav_experimental {
-
-}
-
-#nav_projects {
+#nav_experimental:hover {
 
 }
 
-#nav_twitch {
+#nav_projects:hover {
+
+}
+
+#nav_twitch:hover {
 
 }
 
