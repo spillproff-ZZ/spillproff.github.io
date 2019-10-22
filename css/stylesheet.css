@@ -48,6 +48,7 @@ nav a {
 	display: block;
 	text-align: center;
 	float: right;
+	font-family: "Roboto Condensed", sans-serif;
 }
 
 nav a:hover {
@@ -60,6 +61,7 @@ nav a:hover {
 /* */
 #nav_title {
 	float: left;
+	font-family: "IBM Plex Mono", monospace;
 }
 
 #nav_about:hover {
