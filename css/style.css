@@ -32,11 +32,8 @@ nav {
   top: 0;
   font-family: 'Roboto Condensed', sans-serif;
   background: #4B79A1;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
- 
+  background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 nav a {
@@ -53,7 +50,6 @@ nav a {
 
 nav a:hover {
   height: 19px;
-	
   margin-top: 12px;
   margin-bottom: 22px;
   padding-top: 10px;
@@ -94,11 +90,18 @@ nav a:hover {
 }
 
 #nav_active {
-	background-color: #23664081;
+  height: 19px;
+	
+  margin-top: 12px;
+  margin-bottom: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  background-color: #091523bb;
 }
 
 #nav_active:hover {
-	background-color: #26704681;
+	background-color: #09152394;
 }
 
 #nav_youtube:hover {
