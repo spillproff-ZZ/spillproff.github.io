@@ -1,7 +1,7 @@
 /* Tag residental area ahead */
 body {
   margin: 0;
-  background-color: #1e263d;
+  background-color: #000000;
 }
 
 a {
@@ -27,29 +27,39 @@ h3 {
 nav {
   width: 100%;
   height: 60px;
-  background-color: #1c324d81;
-  background: -webkit-linear-gradient(-zzdeg, #1c324d81, #1f346b81);
-  background: linear-gradient(-90deg, #1c324d81, #1f346b81);
   position: sticky;
   overflow: hidden;
   top: 0;
-  
   font-family: 'Roboto Condensed', sans-serif;
+  background: #4B79A1;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
  
 }
 
 nav a {
 	float: right;
 	display: flex;
-  margin-top: 17px;
-  margin-bottom: 15px;
-  margin-left: 12px;
-  margin-right: 12px;
 	color: white;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 6px;
+  text-align: center;
 }
 
 nav a:hover {
-	background-color: #2f825381;
+  height: 19px;
+	
+  margin-top: 12px;
+  margin-bottom: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  background-color: #09152371;
 }
 /* */
 
@@ -68,35 +78,18 @@ nav a:hover {
 .text_font {
   font-family: 'Lato', sans-serif;
 }
-
-.button {
-  border: 1px ridge #2b6cad;
-  border-radius: 7px;
-  background-color: #2e70b3;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #FFFFFF;
-  padding: 15px 27px;
-  font-weight: lighter;
-}
-
-.button:hover {
-  text-decoration: underline;
-}
 /* */
 
 /* ID residental area ahead */
 #nav_title {
-  padding-top: 17px;
-  padding-bottom: 15px;
-  padding-left: 13px;
-  padding-right: 13px;
-  height: 40px;
-  font-family: 'Questrial', sans-serif;
-	background-color: #091521;
+  margin-top: 5px;
+  margin-left: 4px;
+  margin-bottom: 3px;
+  padding: 15px;
+  height: 20px;
+  border-radius: 50px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+	background-color: #09152371;
 	float: left;
 }
 
@@ -128,10 +121,8 @@ nav a:hover {
   font-weight: lighter;
 }
 
-#text_box {
-  padding: 7px 2px;
-}
-
-#it_o {
-  font_style: oblique;
+#tag1 {
+  background: -webkit-linear-gradient(#457fca, #5691c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
