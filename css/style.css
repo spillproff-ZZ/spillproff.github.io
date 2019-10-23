@@ -115,6 +115,13 @@ nav a:hover {
   text-shadow: 2px 2px 2px black;
 }
 
+@media only screen and (min-width: 720px) {
+  .text {
+    width: 59%;
+  }
+}
+
+
 .download {
   color: white;
   border-radius: 5px;
