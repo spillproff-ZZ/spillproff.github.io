@@ -1,7 +1,6 @@
 ---
 ---
 
-
 /* || TOKENS [ALWAYS FIRST] */
 /* | SIZING */
 $se-xs: 4px;
@@ -127,7 +126,7 @@ nav#nav a { color: $c-gray-0; text-decoration: none; font-size: $se-md; margin: 
 
 #belownavbar { margin-top: $sl-xl;}
 
-#bottombranding { overflow: hidden; font-family: $font-sans-b; font-size: 17px; padding: 5px; text-align: center; margin-top: $se-md; }
+#bottombranding { overflow: hidden; font-family: $font-sans-b; font-size: 17px; padding: 5px 0px 5px 0px; text-align: center; margin-top: $se-md; bottom: 0; position: absolute; width: 100%;}
 
 #textbox { img#coverimg { object-fit: cover; height: 175px; display: block; width: 99%; margin: -5px auto -3px auto; border-radius: 15px; box-shadow: -0px 1px 8px #00000055; } h1, h2, h3 { text-transform: uppercase; margin: 15px 0px -3px 0px; font-family: $font-sans-b; font-weight: 400; } h4, h5, h6 { text-transform: capitalize; font-family: $font-sans-b; font-weight: 600; color: $c-gray-10; margin: -10px 0px -3px 0px; font-style: italic; } h2 { font-size: $sl-xs; } li { margin: -9px 6px; padding: 2px 0px 10px 0px; }font-family: $font-sans-a; width: 67%;  border-radius: $se-xs; height: auto; word-break: break-word; margin: 0px auto 00px auto; object-fit: contain; overflow: hidden; padding: 0px 15px 0px 15px; display: block; font-weight: 500; }
 
@@ -145,9 +144,9 @@ nav#nav a { color: $c-gray-0; text-decoration: none; font-size: $se-md; margin: 
 
 
 /* || THEMES */
-.t-dark { nav#nav { background: $g-cool; color: $c-gray-0; } #bottombranding { text-shadow: 0px 1px 2px $c-gray-100;  background: $g-cool; color: $c-gray-0; } #textbox { h4, h5, h6 { color: $c-gray-10; } #caption { color: $c-gray-5; } text-shadow: 0px 1px 2px $c-gray-100; color: $c-gray-0; background-color: $c-gray-80; } .download { background-color: $c-blue-50; color: $c-gray-0; text-shadow: 0 0 0 $c-gray-100; } .download:hover { background-color: #0e89e8; } .download:active { background-color: $c-blue-60; } background-color: $c-gray-90; span { color: $c-blue-40; } spann { color: $c-magenta-40; }  spannn { background: $g-cool; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 0 0px #FFFFFF35; font-style: oblique; } }
+.t-dark { nav#nav { background: $g-cool; color: $c-gray-0; } #bottombranding { text-shadow: 0px 1px 2px $c-gray-100;  background: $g-cool; color: $c-gray-0; } #textbox { h4, h5, h6 { color: $c-gray-10; } #caption { color: $c-gray-5; } text-shadow: 0px 1px 2px $c-gray-100; color: $c-gray-0; background-color: $c-gray-80; } .download { background-color: $c-blue-50; color: $c-gray-0; text-shadow: 0 0 0 $c-gray-100; } .download:hover { background-color: #0e89e8; } .download:active { background-color: $c-blue-60; } background-color: $c-gray-90; span { color: $c-blue-40; } spann { color: $c-magenta-40; }  spannn, #textbox a { background: $g-cool; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 0 0px #FFFFFF35; font-style: oblique; } }
 
-.t-light { nav#nav { background: $g-warm; color: $c-gray-100;  } #bottombranding { text-shadow: 0px 1px 2px $c-gray-100; background: $g-warm; color: $c-gray-0; } #textbox { h4, h5, h6 { color: $c-gray-80; } #caption { color: $c-gray-70; } text-shadow: 0px 1px 2px $c-gray-10; color: $c-gray-100; background-color: $c-gray-5; } .download { background-color: $c-red-50; color: $c-gray-0; text-shadow: 0 0 0 $c-gray-100;} .download:hover { background-color: #f50c2f; } .download:active { background-color: $c-red-60; } background-color:  #fbfbfb; span { color: $c-red-40; } spann { color: $c-yellow-40; } spannn { background: $g-warm; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 0 0px #00000021; font-style: oblique; } }
+.t-light { nav#nav { background: $g-warm; color: $c-gray-100;  } #bottombranding { text-shadow: 0px 1px 2px $c-gray-100; background: $g-warm; color: $c-gray-0; } #textbox { h4, h5, h6 { color: $c-gray-80; } #caption { color: $c-gray-70; } text-shadow: 0px 1px 2px $c-gray-10; color: $c-gray-100; background-color: $c-gray-5; } .download { background-color: $c-red-50; color: $c-gray-0; text-shadow: 0 0 0 $c-gray-100;} .download:hover { background-color: #f50c2f; } .download:active { background-color: $c-red-60; } background-color:  #fbfbfb; span { color: $c-red-40; } spann { color: $c-yellow-40; } spannn, #textbox a{ background: $g-warm; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 0 0px #00000021; font-style: oblique; } }
 
 /* || CUSTOMIZABLE */
 .floatright { float: right; margin-left: 8px; }
