@@ -1,6 +1,7 @@
 ---
 ---
 
+
 /* || TOKENS [ALWAYS FIRST] */
 /* | SIZING */
 $se-xs: 4px;
@@ -120,9 +121,8 @@ nav#nav a { color: $c-gray-0; text-decoration: none; font-size: $se-md; margin: 
 .nav_special:active { background-color: #000000aa; }
 
 #nav_links_a { text-align: center; margin: 21px 4px; font-family: $font-sans-b; }
-#nav_links_b {  padding: 8px 7px 8px 7px; border-radius: 30px; display: inline; }
-#nav_links_b:hover { background-color: #00000078; }
-#nav_links_b:active{ background-color: #00000095; }
+#nav_links_b { margin: 0px -5px 0px -5px; padding: 1px; display: inline; }
+#nav_links_b:hover { text-decoration: underline; }
 
 #belownavbar { margin-top: $sl-xl;}
 
@@ -151,4 +151,5 @@ footer { overflow: hidden; font-family: $font-sans-b; font-size: 17px; padding: 
 /* || CUSTOMIZABLE */
 .floatright { float: right; margin-left: 8px; }
 .floatleft { float: left; margin-right: 8px; }
+
 
