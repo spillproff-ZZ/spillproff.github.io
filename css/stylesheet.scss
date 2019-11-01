@@ -126,7 +126,7 @@ nav#nav a { color: $c-gray-0; text-decoration: none; font-size: $se-md; margin: 
 
 #belownavbar { margin-top: $sl-xl;}
 
-#bottombranding { overflow: hidden; font-family: $font-sans-b; font-size: 17px; padding: 5px 0px 5px 0px; text-align: center; margin-top: $se-md; bottom: 0; position: absolute; width: 100%;}
+#bottombranding { overflow: hidden; font-family: $font-sans-b; font-size: 17px; padding: 5px 0px 5px 0px; text-align: center; margin-top: $se-md; bottom: 0; position: relative; width: 100%;}
 
 #textbox { img#coverimg { object-fit: cover; height: 175px; display: block; width: 99%; margin: -5px auto -3px auto; border-radius: 15px; box-shadow: -0px 1px 8px #00000055; } h1, h2, h3 { text-transform: uppercase; margin: 15px 0px -3px 0px; font-family: $font-sans-b; font-weight: 400; } h4, h5, h6 { text-transform: capitalize; font-family: $font-sans-b; font-weight: 600; color: $c-gray-10; margin: -10px 0px -3px 0px; font-style: italic; } h2 { font-size: $sl-xs; } li { margin: -9px 6px; padding: 2px 0px 10px 0px; }font-family: $font-sans-a; width: 67%;  border-radius: $se-xs; height: auto; word-break: break-word; margin: 0px auto 00px auto; object-fit: contain; overflow: hidden; padding: 0px 15px 0px 15px; display: block; font-weight: 500; }
 
